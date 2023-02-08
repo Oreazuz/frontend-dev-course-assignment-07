@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    
+    <main class="screen">
+        <div class="red--section">
+            <form action="">
+                <label for="name" class="label">FULL NAME</label>
+                <input type="name" name="name" id="name" required>
+                <label for="email" class="label">EMAIL</label>
+                <input type="email" id="email" placeholder=" Your Email" required>
+                <label for="select" class="label"> MESSAGE REGARDING</label>
+                <select class="label" required>
+                    <option value="default"></option>
+                    <option value="school">SCHOOL</option>
+                    <option value="school">WORK</option>
+                </select>
+
+                <label for="message" class="label" >MESSAGE</label>
+                <input type="text" id="message" placeholder=" Your Message" required>
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+            <div class="orange--section"></div>
+
+            <img src="./images/duck.png" alt="duck" class="duck-image">
+        </div>
+        
+    </main>
 </body>
 </html>
